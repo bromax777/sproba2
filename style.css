@@ -1,0 +1,127 @@
+body{
+    background-color: black;
+    color: black;
+    margin: 0%;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+}
+li{
+    list-style-type: none;
+}
+.uplist {
+    background-color: #1B263B;
+    color: white;
+    display: flex;
+    justify-content: center;
+    line-height: 7vh;
+    /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); */
+}
+
+/* .uplist{
+    background-color: #1B263B;
+    /* line-height: 100px; 
+} */
+.uplist li{
+    display: inline-block;
+    font-size: 2.5vh;
+    margin-inline: 15px;
+    
+}
+.uplist img{
+    border-radius: 10%;
+    max-height: 1cm;
+    
+}
+/* .uplist li:first-child{
+    vertical-align: bottom;
+} */
+
+.osnova{
+    background-color: #415A77;
+    display: block;
+    margin-inline: 1vw;
+    border-radius: 10px;
+}
+.best{
+    display: flex;
+    justify-content: flex-start;
+
+}
+.one{
+    background-color: #E0E1DD;
+    padding: 6px;
+    border-radius: 6px;
+    width: 130px;
+    height: 237px;
+    margin: 10px;
+    
+}
+.one img{
+    border-radius: 6px;
+    width: 130px;
+}
+.one a{
+    margin: 2px;
+    color: black;
+}
+#opys{
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #778DA9;
+    margin: 0;
+}
+.novynky a{
+    text-align: center;
+    color:black;
+}
+.novynky{
+    display: inline-block;
+    vertical-align: top;
+    background-color: #E0E1DD;
+    margin: 10px;
+    width: 46vw;
+    border-radius: 10px;
+}
+.anfo{
+    /* background-color: #E0E1DD; */
+    /* border-radius: 10px; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    box-shadow: 0 1px 0 black;
+    /* overflow: hidden;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-bottom-color: red; */
+}
+.name-poster{
+    display: grid;
+    margin: 15px;
+    width: 29%;
+}
+.name-poster img{
+    margin: 5px;
+    border-radius: 10px;
+    width: 171px;
+}
+.info{
+    width: 58%;
+    border-color: #1B263B;
+}
+/* .info p{
+    width: 30%;
+} */
+.info b{
+    color: #0077b6;
+}
